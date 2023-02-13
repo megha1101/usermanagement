@@ -1,0 +1,53 @@
+@charset "UTF-8";
+h1{
+	text-align: center;
+	text-transform:uppercase;
+	text-decoration:underline;
+}
+
+a
+{
+	font-size:18px;
+}
+
+table {
+	text-align:center;
+	border:2px solid;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th 
+{
+	border:2px solid;
+  font-size: 22px;
+  background-color:#a9a9a9;
+  color: white;
+  height: 45px;
+  text-align: center;
+}
+
+td {
+	border:2px solid;
+	font-size: 18px;
+  padding: 10px;
+  text-align: left;
+}
+
+tr:hover 
+{
+	background-color: #c3c3c3;
+	color: white;
+	}
+
+tr:nth-child(even)
+{
+ background-color: #f2f2f2;
+}
+
+
+tr:nth-child(even):hover
+{
+ background-color:#c3c3c3;
+ color:white;
+}
