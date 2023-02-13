@@ -42,7 +42,7 @@ public class edirusercontrol extends HttpServlet {
 	        
 	        pw.print("<link rel='stylesheet' href='css/table.css'>");
 	        
-	        pw.print("<form action='editcontroller2' method='post'>");  
+	        pw.print("<form action='editcontroller2' method='get'>");  
 	        pw.print("<table>");  
 	        pw.print("<tr><td></td><td><input type='hidden' name='id' value='"+e.getId()+"'/></td></tr>");  
 	        pw.print("<tr><td>Name:</td><td><input type='text' name='name' value='"+e.getName()+"'/></td></tr>"); 
