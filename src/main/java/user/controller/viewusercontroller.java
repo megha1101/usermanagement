@@ -35,7 +35,7 @@ public class viewusercontroller extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter pw = response.getWriter();
 		
-		 pw.println("<a href='addusercontroller'>Add New User</a>");  
+		 pw.println("<a href='homepage.html'>Back</a>");  
 	        pw.println("<h1>User List</h1>");  
 	          
 	        List<AddUserBO> list=UserDAO.getallusers();  
